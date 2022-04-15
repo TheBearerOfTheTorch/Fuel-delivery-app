@@ -8,13 +8,14 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
     public static final String DBNAME = "Login.db";
+
     public DBHelper(Context context) {
         super(context, "Login.db",null,1);
     }
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("create Table users(username TEXT primary key, password TEXT)");
+        sqLiteDatabase.execSQL("create Table users(email TEXT primary key, password TEXT)");
     }
 
     @Override
@@ -22,7 +23,7 @@ public class DBHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("drop Table if exists users");
     }
 
-    public Boolean insertData(String email,String username, String password){
+    public Boolean registerUser(String email,String username, String password){
         SQLiteDatabase myDb = this.getWritableDatabase();
         ContentValues contentValues= new ContentValues();
         contentValues.put("email",email);
@@ -32,11 +33,18 @@ public class DBHelper extends SQLiteOpenHelper {
         return result != -1;
     }
 
-    public Boolean checkEmail(String email) {
+//    SQLiteDatabase sqLiteDatabaseObj;
+//    SQLiteHelper sqLiteHelper;
+//    Cursor cursor;
+
+    public Boolean checkUser(String email) {
         SQLiteDatabase myDb = this.getWritableDatabase();
+        //Cursor cursor = myDb.query(DBNAME, null, " " + SQLiteHelper.Table_Column_2_Email + "=?", new String[]{email}, null, null, null);
+
         Cursor cursor = myDb.rawQuery(
                 "Select * from users where email = ?",
                 new String[]{email});
+
         return cursor.getCount() > 0;
     }
 

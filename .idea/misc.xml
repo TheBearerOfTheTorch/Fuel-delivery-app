@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/drawable/btn_custom.xml" value="0.2305" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/drawable/ec_arrow_left.xml" value="0.2305" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/drawable/et_custom.xml" value="0.2305" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/drawable/ic_arrow_right.xml" value="0.2305" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/activity_home.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/activity_register.xml" value="0.26222826086956524" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/activity_sign_up.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/fragment_login.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/User/StudioProjects/warona/app/src/main/res/layout/fragment_register.xml" value="0.22395833333333334" />
       </map>
     </option>
   </component>

@@ -1,12 +1,26 @@
 <resources>
-    <string name="app_name">warona</string>
-    <string name="password">Password</string>
-    <string name="email">Email</string>
+    <string name="app_name">Fuel delivery</string>
+    <string name="passwordLogin">Password</string>
+    <string name="passwordRegister">Password</string>
+    <string name="rePasswordRegister">Retype Password</string>
+    <string name="emailLogin">Email</string>
+    <string name="emailRegister">Email</string>
+    <string name="login">login</string>
     <string name="sign_in">Sign in</string>
     <string name="register">Register</string>
     <string name="existing_user_go_to_sign_in_page">Existing user! Go to Sign in page</string>
     <string name="retype_password">Retype Password</string>
-    <string name="password">Password</string>
-    <string name="email">Email</string>
-    <string name="username">username</string>
+    <string name="username">Username</string>
+    <string name="todo">ToDo</string>
+    <string name="swipe_left_for_register">swipe left for register</string>
+    <string name="swipe_right_for_register">swipe right for login</string>
+    <string name="userType">User type   (user / station)</string>
+
+    <string-array name="languages">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>VisualBasic</item>
+    </string-array>
 </resources>
