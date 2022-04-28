@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".Register">
 
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="61dp"
+        android:src="@drawable/ec_arrow_left" />
+
     <TextView
         android:id="@+id/tv_logo"
         android:layout_width="368dp"
@@ -20,7 +25,7 @@
 
 
     <EditText
-        android:id="@+id/et_select"
+        android:id="@+id/emailRegister"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/emailRegister"
@@ -100,23 +105,6 @@
             android:layout_centerInParent="true"
             android:textColor="@android:color/white"
             android:text="@string/register"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ec_arrow_left"
-            android:layout_above="@id/swipeLeft"
-            android:layout_centerHorizontal="true"/>
-
-        <TextView
-            android:id="@+id/swipeLeft"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/swipe_right_for_register"
-            android:textSize="15sp"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"/>
 
     </RelativeLayout>
 

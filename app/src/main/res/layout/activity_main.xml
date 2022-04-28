@@ -28,12 +28,12 @@
         android:layout_marginRight="20dp"
         android:padding="15dp"
         android:inputType="textEmailAddress"
-        android:layout_above="@id/et_password"
+        android:layout_above="@id/passwordLogin"
         android:background="@drawable/et_custom"
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/et_password"
+        android:id="@+id/passwordLogin"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/passwordLogin"
@@ -50,7 +50,7 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/et_password"
+        android:layout_below="@id/passwordLogin"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
